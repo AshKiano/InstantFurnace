@@ -1,0 +1,9 @@
+name: InstantFurnace
+version: '${project.version}'
+main: com.ashkiano.instantfurnace.InstantFurnace
+api-version: 1.16
+authors: [ AshKiano ]
+permissions:
+  instantfurnace.use:
+    description: Allows instant smelting of items
+    default: op
