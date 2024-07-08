@@ -26,6 +26,7 @@ public class InstantFurnace extends JavaPlugin implements Listener {
         initializeSmeltingMap();
         getLogger().info("InstantFurnace enabled!");
         Metrics metrics = new Metrics(this, 22053);
+        this.getLogger().info("Thank you for using the InstantFurnace plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
